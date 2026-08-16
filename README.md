@@ -42,10 +42,25 @@ re-opening is instant — the source is only re-fetched when you ask.
 
 ## Install / build
 
+Install the latest released version directly from GitHub:
+
+```sh
+cargo install --git https://github.com/jamwil/epg-tui.git --tag v0.1.0 --locked
+```
+
+Replace `v0.1.0` with the desired [release](https://github.com/jamwil/epg-tui/releases).
+The installed command is `epg`.
+
+To build the current checkout instead:
+
 ```sh
 cargo build --release
 # binary: target/release/epg
 ```
+
+Maintainers create a release by bumping the package version in `Cargo.toml` and
+pushing that change to `main`. GitHub Actions creates the matching `v<version>`
+tag, release notes, checksums, and Linux/macOS binary archives automatically.
 
 ## Usage
 
