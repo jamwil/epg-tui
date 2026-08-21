@@ -135,3 +135,7 @@ attributes when present, else parsed from the `start`/`stop` XMLTV date strings
 
 An XMLTV provider URL (must be supplied via `EPG_URL` / `-u` — no credentials are bundled).
 → The reference feed: 4109 channel entries / 3273 unique channels / 140360 programmes, ~53MB.
+
+## License
+
+Licensed under the [MIT License](LICENSE).

@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "A TUI EPG (XMLTV) viewer with SQLite caching and vim-style bindings"
 authors = ["jamwil"]
+license = "MIT"
 
 [[bin]]
 name = "epg"
